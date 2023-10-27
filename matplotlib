@@ -1,0 +1,6 @@
+import matplotlib as plt
+course=["anjali","aditi","akash"]
+no_of_student=[40,50,68]
+colors=["b","c","r"]
+plt.pie(no_of_student,labels=colors,colors=colors)
+plt.show()
